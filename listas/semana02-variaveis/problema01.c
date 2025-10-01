@@ -13,7 +13,7 @@ int main() {
     printf("Digite a altura em (metros): ");
     scanf("%f", &altura);
 
-    // Calculando o IMC com os dados forcencidos
+    // Calcular o IMC com os dados fornecidos
     massa_corporal = ((peso) / (pow(altura,2)));
 
     printf("Indice de massa corporal: %.2f\n", massa_corporal);
