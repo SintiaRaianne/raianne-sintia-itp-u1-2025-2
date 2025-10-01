@@ -7,7 +7,7 @@ int main() {
     int m, n;
     int solucoes = 0;
 
-    printf("Solucoes para o problema das 8 rainhas:\n");
+    printf("Solucoes para o problema das 4 rainhas:\n");
 
     for (i = 0; i < 4; i++) {
         for (j = 0; j < 4; j++) {
@@ -42,7 +42,7 @@ int main() {
                     tabuleiro[k][2] = 1;
                     tabuleiro[l][3] = 1;
 
-                    // Clacula a quantidade de possiveis solucoes e imprime 
+                    // Quantidade de possiveis solucoes
                     solucoes++;
                     printf("\nSolucao %i:\n", solucoes);
                     
