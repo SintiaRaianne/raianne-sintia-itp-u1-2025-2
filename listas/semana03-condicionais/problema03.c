@@ -20,7 +20,6 @@ int main() {
     printf("\nMedia Aritmetica: %.2f\n", media_aritmetica);
 
     // Verifica a situacao do aluno pela sua media
-
     if (media_aritmetica < 4.0){
         printf("Situacao: Reprovado");
 
@@ -29,7 +28,6 @@ int main() {
         printf("Situacao: Recuperacao");
 
         // Calcula qual nota precisa tirar na prova final para ser aprovado
-
         nota_final = (5.0 * 2) - (media_aritmetica);
         
         printf("\nO aluno precisa tirar %.2f na prova final para ser aprovado. ", nota_final);
