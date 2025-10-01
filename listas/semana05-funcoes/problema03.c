@@ -5,7 +5,7 @@
 float calcula_altura(float x, float y){
     return sin(cos(y) + x) + cos(y + sin(x));
 }
-
+// Verifica se o ponto x, y e seus 4 pontos verdes sao seguros
 int seguro(float x, float y){
     float altura = calcula_altura(x, y);
 
@@ -31,6 +31,7 @@ int main() {
 
     scanf("%f %f", &x, &y);
 
+    // Caso o ponto nao seja seguro troca as coordenadas
     if (!seguro(x, y)){
         printf("Troque as coordenadas.");
         return 0;
