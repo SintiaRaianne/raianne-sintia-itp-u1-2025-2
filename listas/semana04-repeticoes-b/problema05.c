@@ -8,11 +8,9 @@ int main() {
     scanf("%i", &n);
 
     // Caso o usuario informe um numero invalido
-
     if (n <= 0) {
         printf("\nPor favor, insira um numero positivo");
 
-        // Encerra o programa com um código de erro e mensagem de aviso.
         return 1;
     }
 
