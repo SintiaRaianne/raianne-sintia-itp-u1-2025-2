@@ -12,6 +12,7 @@ int main() {
     printf("Digite o valor do segundo numero: ");
     scanf("%i", &y);
 
+    // Calcular as operacoes com os dados fornecidos
     soma = (x + y);
     sub = (x - y);
     mult = (x * y);
