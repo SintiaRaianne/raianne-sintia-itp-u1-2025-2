@@ -6,7 +6,6 @@ int main() {
     char jogada1, jogada2;
 
     // toupper padroniza para maiúsculo
-
     printf("\nJogada do jogador 1 (P: pedra, A: papel, T: tesoura): ");
     scanf(" %c", &jogada1);
     jogada1 = toupper(jogada1);
@@ -15,8 +14,7 @@ int main() {
     scanf(" %c", &jogada2);
     jogada2 = toupper(jogada2);
 
-    // Verifica o que cada jogador jogou e quem vence ou se da empata
-
+    // Verifica o que cada jogador jogou e quem vence ou se da empatam
     if (jogada1 == jogada2){
         printf("Empate!");
     }
