@@ -12,12 +12,12 @@ int main() {
     printf("Digite a altura (m): ");
     scanf("%f", &altura);
 
+    // Calcular o IMC com os dados fornecidos
     massa_corporal = ((peso) / (pow(altura,2)));
 
     printf("\nIndice de massa corporal: %.2f\n", massa_corporal);
 
-    // Classifique os resultado de acordo com a tabela
-
+    // Classificar os resultado de acordo com a tabela do IMC
     if (massa_corporal < 18.5){
         printf("Classificacao: Abaixo do peso");
     } else if (massa_corporal <= 24.9){
