@@ -18,8 +18,7 @@ int main(){
         printf("Digite a coordenada de y no lancamento %i: ", i + 1);
         scanf("%f", &y);
 
-        // Calculando pontuacao principal
-
+        // Calcula a pontuacao principal
         distancia_p = sqrt(pow(x, 2) + pow(y, 2));
 
         if (distancia_p <= 1){
@@ -30,7 +29,7 @@ int main(){
             pontos = pontos + 4;
         }
 
-        // Calculando pontuacao bonus
+        // Calcula a pontuacao bonus
 
         if (i > 0){
             distancia_b = sqrt(pow((x - ax), 2) + pow((y - ay), 2));
@@ -44,8 +43,7 @@ int main(){
             }
         }
 
-    // Ao final da rodada, o lançamento "atual" se torna o "anterior" para a próxima iteração do laço
-
+    // No final da rodada, o lançamento atual se torna o anterior 
     ax = x;
     ay = y;
         
