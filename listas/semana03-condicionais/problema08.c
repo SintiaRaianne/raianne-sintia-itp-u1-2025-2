@@ -15,12 +15,10 @@ int main() {
     printf("Digite o valor do coeficiente c: ");
     scanf("%lf", &c);
 
-    // Verificando se forma triangulo
-
+    // Verifica se forma triangulo 
     if (((a + b) > c) && ((b + c) > a) && ((a + c) > b)){
 
-        // Classificando cada tipo de triangulo pelos lados
-
+        // Classifica triangulo pelos lados 
        if (a == b && b == c){
             printf("\nTriangulo Equilatero: Todos lados iguais.");
        } else if (a == b || b == c || c == a){
@@ -29,8 +27,7 @@ int main() {
             printf("\nTriangulo Escaleno: Todos lados diferentes.");
        }
 
-       // Identificando o maior lado
-
+       // Identifica o maior lado 
        if (a >= b && a >= c){
             maior = a; 
             x1 = b; 
@@ -45,8 +42,7 @@ int main() {
             x2 = b;
         }
 
-        // Classificando cada tipo de triangulo pelos angulos
-
+        // Classifica o triangulo pelos angulos
        if (pow(maior,2) == pow(x1,2) + pow(x2,2)){
             printf("\nAngulo Retangulo.");
        } else if (pow(maior,2) < pow(x1,2) + pow(x2,2)){
