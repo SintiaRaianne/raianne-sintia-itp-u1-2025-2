@@ -24,6 +24,7 @@ int main(){
             valor_venda = y * p;
             valor_producao = x * q;
 
+            // Verifica se a promocao nao causa prejuizo a empresa
             if (valor_venda >= valor_producao){
                 razao = (float)x / y;
                 if (razao > melhor_promocao){
@@ -35,7 +36,6 @@ int main(){
         }
 
     } 
-    
     if (melhor_promocao > 0) {
         printf("A melhor promocao eh: leve %i pague %i",indice_primeiro, indice_segundo);
     } else {
