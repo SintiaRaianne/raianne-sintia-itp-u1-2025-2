@@ -29,26 +29,22 @@ int main() {
         printf("Digite a coordenada y do alvo %i: ", i + 1);
         scanf("%f", &y2);
 
-        // Calculando a distancia 
-
+        // Calcula a distancia
         distancia = sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2));
 
-        // Caso a teia nao alcance o alvo.
-
+        // Caso a teia nao alcance o alvo 
         if (distancia > teia){
             printf("\nN");
             return 0;
         }
 
-        // Depois de fixar a teia no primeiro alvo a nova posição do Homem-Aranha.
-
+        // Depois de fixar a teia no primeiro alvo a nova posição do Homem-Aranha
         x1 = (2 * x2 - x1);
         y1 = (2 * y2 - y1);
 
     }
 
-    // Caso a teia alcance todos os alvos. 
-
+    // Caso a teia alcance todos os alvos
     printf("\nS");
     
     return 0;
