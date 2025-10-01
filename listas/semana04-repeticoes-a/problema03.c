@@ -14,7 +14,6 @@ int main() {
     scanf("%i", &B);
 
     // Somatorio dos divisores próprios de A
-
     for (int i = 1; i <= A / 2; i++){
         if (A % i == 0){
             somaA = somaA + i;
@@ -22,15 +21,13 @@ int main() {
     }
 
     // Somatorio dos divisores próprios de B
-
     for (int i = 1; i <= B / 2; i++){
         if (B % i == 0){
             somaB = somaB + i;
         }
     }
 
-    // Verificacao se os numeros sao colegas 
-
+    // Verifica se os numeros sao colegas 
     if ((abs(somaA - B) <= 2) && (abs(somaB - A) <= 2)){
         printf("\nS");
     } else {
