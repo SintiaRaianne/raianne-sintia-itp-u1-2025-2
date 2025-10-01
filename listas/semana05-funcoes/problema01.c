@@ -21,7 +21,6 @@ void formato12h(int horas, int minutos) {
     int horas12;
 
     // Determinar o periodo e converter o horario
-    
     if (horas == 0) {
         horas12 = 12;
         sprintf(periodo, "AM");
@@ -45,13 +44,11 @@ int main() {
 
     scanf("%i %i %i", &horas, &minutos, &formato);
 
-    // Array com os acréscimos em minutos
+    // Array com os acréscimos dividido em horas e minutos
     int acrescimos_horas[] = {0, 1, 2, 4, 12};
-
     int acrescimos_minutos[] = {0, 0, 10, 40, 5};
 
     // Inserir os acrescimos partindo da primeira ronda
-    
     for (int i = 0; i < 5; i++) {
         int horas_atual = horas + acrescimos_horas[i];
         int minutos_atual= minutos + acrescimos_minutos[i];
