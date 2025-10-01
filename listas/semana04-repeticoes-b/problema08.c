@@ -17,6 +17,7 @@ int main(){
     printf("Digite o preco do segundo fornecedor: R$ ");
     scanf("%f", &preco_fornecedor2);
 
+    // Analisa todas as combinacoes possiveis de compra dos dois fornecedores
     for (int i = 0; i <= 10; i++){
         for (int j = 0; j <= 10; j++){
 
