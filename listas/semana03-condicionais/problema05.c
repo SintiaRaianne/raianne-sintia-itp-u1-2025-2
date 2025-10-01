@@ -7,8 +7,7 @@ int main() {
     printf("\nDigite o valor da compra R$: ");
     scanf("%f", &valor_compra);
 
-    // Determina o valor do desconto
-
+    // Determina o valor do desconto conforme a tabela
     if (valor_compra <= 100.00){
         desconto = 0;
     } else if (valor_compra <= 500.00){
@@ -18,7 +17,8 @@ int main() {
     } else{
         desconto = 20;
     }
-
+    
+    // Calcula o valor do desconto e o valor final da compra
     valor_desconto = valor_compra * (desconto / 100);
     valor_final = valor_compra - valor_desconto;
     
