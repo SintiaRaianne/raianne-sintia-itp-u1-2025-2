@@ -20,6 +20,7 @@ int main(){
 
     printf("\n");
 
+    // Menor resto inicia com o valor total disponivel para a compra
     menor_resto = quantia_disponivel;
 
     for (int i = 0; i <= 10; i++){
@@ -30,6 +31,7 @@ int main(){
             if (quantia_disponivel >= custo){
                 resto = quantia_disponivel - custo;
 
+                // Verifica se o resto atual é menor o anterior
                 if (resto < menor_resto){
                     menor_resto = resto;
                     indice_primeiro = i;
