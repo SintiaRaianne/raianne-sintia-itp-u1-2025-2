@@ -7,7 +7,6 @@ int main() {
     char febre, dor_cabeca, dor_corpo, tosse;
 
     // toupper padroniza para maiúsculo
-
     printf("\nTem febre? (S/N) ");
     scanf(" %c", &febre);
     febre = toupper(febre);
@@ -24,8 +23,7 @@ int main() {
     scanf(" %c", &tosse);
     tosse = toupper(tosse);
 
-    // Sugestoes com base em cada resposta
-
+    // Sugestoes com base em cada resposta fornecida
     if (febre == 'S' && dor_cabeca == 'S' && dor_corpo == 'S' && tosse == 'N'){
         printf("\nPossivel gripe.");
     } else if (tosse == 'S' && febre == 'S' && dor_cabeca == 'N' && dor_corpo == 'N'){
