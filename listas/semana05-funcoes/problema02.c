@@ -22,8 +22,7 @@ int main() {
 
     for (int x = 3; x + 6 <= limite; x++) {
 
-        // Verificacao se x, x + 2 e x + 6 são todos primos
-
+        // Verificac se x, x + 2 e x + 6 são todos primos
         if (ehPrimo(x) && ehPrimo(x + 2) && ehPrimo(x + 6)) {
             printf("(%i, %i, %i)\n", x, x + 2, x + 6);
         }
