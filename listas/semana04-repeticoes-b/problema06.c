@@ -3,8 +3,9 @@
 
 int main() {
 
-    int a, b, c;     
-
+    int a, b, c; 
+    
+    // Encontra e imprime todos os trios pitagóricos com o maior número  ate 1000
     printf("\nTrios pitagoricos com o maior numero menor que 1000: \n");
 
     for (a = 1; a < 1000; a++) {
