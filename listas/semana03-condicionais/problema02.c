@@ -4,7 +4,6 @@
 int main() {
 
     // toupper padroniza para maiúsculo
-
     float consumo, valor_total_conta;
     char tipo_consumidor;
     int taxa_fixa = 15;
@@ -16,8 +15,7 @@ int main() {
     scanf(" %c", &tipo_consumidor);
     tipo_consumidor = toupper(tipo_consumidor);
 
-    // Calcula o valor total da conta
-
+    // Calcular o valor total da conta de energia conforme o tipo do consumidor
     if (tipo_consumidor == 'R'){
         valor_total_conta = (0.60 * consumo)+ (taxa_fixa);
     } else if (tipo_consumidor == 'C') {
