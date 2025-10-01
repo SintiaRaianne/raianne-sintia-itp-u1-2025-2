@@ -8,7 +8,8 @@ int main() {
 
     printf("\nInforme a temperatura em graus Celsius: ");
     scanf("%f", &celsius);
-
+    
+    // Calcular a temperatura em kelvin e fahrenheit com os dados forcencidos
     fahrenheit = (celsius * 9/5) + 32;
     kelvin = (celsius + 273.15);
 
