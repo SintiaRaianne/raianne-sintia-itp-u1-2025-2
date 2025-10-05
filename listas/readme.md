@@ -5,7 +5,7 @@
 ### ⚙️ Configuração do Ambiente
 - ### Instalação do Compilador
     - Software: GCC (versão 15.2.0) no projeto
-    - Download: Baixar o instalador do compilador (por exemplo, MinGW-w64 ou MSYS2).
+    - Download: Baixar o instalador do compilador.
     - Configuração: Após a instalação, adicione o caminho da pasta `bin` do compilador à variável de ambiente **Path** do Windows. 
     - Verificação da Instalação: Abra o Prompt de Comando e digite:
 
