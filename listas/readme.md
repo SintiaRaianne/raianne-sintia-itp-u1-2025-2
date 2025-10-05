@@ -1,4 +1,4 @@
-# 💡 Guia de Configuração do Ambiente e Instruções de Compilação
+# 📖 Guia de Configuração do Ambiente e Instruções de Compilação
 
 **Descrição**: Este documento apresenta o passo a passo para configurar o ambiente de desenvolvimento em C e executar os códigos do projeto, tanto através de uma IDE quanto via linha de comando.
 
