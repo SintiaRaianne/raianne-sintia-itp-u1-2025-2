@@ -12,10 +12,10 @@
 - **Instalação da IDE**
     - Software: A IDE utilizada foi o Visual Studio Code.
     - Download: Baixe e instale o VSCode.
-    
+
 - **Instalação de extensão na IDE**
-    - Dentro do VSCode, vá para a aba de Extensões
-    - Procure por C/C++ e instale a extensão oficial da Microsoft
+    - Extensão: Dentro do VSCode, vá para a aba de Extensões
+    - Instalação: Procure por C/C++ e instale a extensão oficial da Microsoft
 
 ### 📝 Instruções de Compilação e Execução
 - **Método A: Execução via VSCode**
