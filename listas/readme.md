@@ -32,3 +32,7 @@
     - Execute o Programa: Após a compilação, execute o programa gerado
 
         Ex: ./nome_do_programa
+    
+    - **OBS**: Caso o programa utilize a biblioteca matemática (math.h), precisa usar -lm no final do comando de compilação. Como na lista cinco, questão 3. 
+
+        Ex: gcc -o nome_programa nome_programa.c -lm
