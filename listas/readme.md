@@ -2,8 +2,7 @@
 
 **Descrição**: Este documento apresenta o passo a passo para configurar o ambiente de desenvolvimento em C e executar os códigos do projeto, tanto através de uma IDE quanto via linha de comando.
 
-## ⚙️ Configuração do Ambiente
-
+### ⚙️ Configuração do Ambiente
 - **Instalação do Compilador**
     - Software: Foi utilizado o compilador GCC (versão 15.2.0) no projeto
     - Download: Baixar o instalador
@@ -16,8 +15,7 @@
     - Dentro do VSCode, vá para a aba de Extensões
     - Procure por C/C++ e instale a extensão oficial da Microsoft
 
-## 📝 Instruções de Compilação e Execução
-
+### 📝 Instruções de Compilação e Execução
 - **Método A: Execução via VSCode**
     - Abra o Arquivo: Abra qualquer arquivo com a extensão .c no VSCode
     - Execute: Após a extensão C/C++ ser instalada, um botão de "Play" (ou Run C/C++ File) aparecerá no canto superior direito da tela
