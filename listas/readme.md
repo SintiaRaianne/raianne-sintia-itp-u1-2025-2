@@ -23,7 +23,7 @@
     - Execute: Após a extensão C/C++ ser instalada, um botão de "Play" (ou Run C/C++ File) aparecerá no canto superior direito da tela
     - Resultado: Ao clicar nesse botão, a extensão irá compilar e executar o código automaticamente, e a saída será exibida na aba "Terminal" do VSCode.
 
-- **Método B: Compilação Manual via Terminal**
+- ***Método B: Compilação Manual via Terminal***
     - Abra o terminal: Navegue até a pasta onde estão seus arquivos .c
     - Compile o Código: Use o comando gcc, especificando o nome do programa executável de saída (-o) e o arquivo de código-fonte.
         → Ex: gcc -o nome_do_programa nome_do_arquivo.c
