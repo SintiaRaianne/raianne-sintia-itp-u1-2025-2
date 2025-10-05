@@ -6,7 +6,7 @@
 
 **Período**: 2025.2
 
-## 🗂️ Estrutura do Projeto
+## 📂 Estrutura do Projeto
 - `projeto/`: Projeto principal da unidade
 - `listas/`: Soluções das listas de exercícios
 - `README.md`: Este arquivo
