@@ -1,7 +1,9 @@
 # Introdução a Técnicas de Programação - Unidade 1
 
 **Aluno**: Síntia Raianne Bezerra de Souza
+
 **Matrícula**: 20250052970
+
 **Período**: 2025.2
 
 ## 📁 Estrutura do Projeto
@@ -67,7 +69,7 @@
 - ✅ Questões 1-4: Análise de código
 - ✅ Questões 5-11: Implementações
 
-### Semana 5 - Funções (Parte 1):
+### Semana 5 - Funções:
 - ✅ Problema 1: Horários das rondas
 - ✅ Problema 2: Primos triplos
 - ✅ Problema 3: Pousando a sonda espacial
