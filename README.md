@@ -1,10 +1,8 @@
 # Introdução a Técnicas de Programação - Unidade 1
 
 **Aluno**: Síntia Raianne Bezerra de Souza
-
 **Matrícula**: 20250052970
-
-**Período**: 2025.2
+**Período**: 2025.2*
 
 ## 📁 Estrutura do Projeto
 - `projeto/`: Projeto principal da unidade
