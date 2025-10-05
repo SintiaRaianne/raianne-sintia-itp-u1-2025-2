@@ -11,7 +11,7 @@
 - `listas/`: Soluções das listas de exercícios
 - `README.md`: Este arquivo
   
-## 🚀 Projeto: Sistema de Gerenciamento de Biblioteca
+## 🏛️ Projeto: Sistema de Gerenciamento de Biblioteca
 
 **Descrição**: Sistema para gerenciar as operações de uma biblioteca, permitindo o cadastro de livros e usuários, a listagem dos itens registrados e a realização de empréstimos.
 
