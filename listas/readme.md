@@ -7,7 +7,7 @@
     - Software: Foi utilizado o compilador GCC (versão 15.2.0) no projeto
     - Download: Baixar o instalador
     - Configuração: Após a instalação, adicione o caminho da pasta bin do compilador à variável de ambiente Path do Windows. 
-    - Verificação da Instalação: 
+    - Verificação da Instalação: Abra o Prompt de Comando e execute gcc --version
 
 - **Instalação da IDE**
     - Software: A IDE utilizada foi o Visual Studio Code.
@@ -25,7 +25,7 @@
 
 - **Método B: Compilação Manual via Terminal**
     - Abra o terminal: Navegue até a pasta onde estão seus arquivos .c
-    - Compile o Código: Use o comando gcc, especificando o nome do programa executável de saída (-o) e o arquivo de código-fonte. 
-      Ex: gcc -o nome_do_programa nome_do_arquivo.c
+    - Compile o Código: Use o comando gcc, especificando o nome do programa executável de saída (-o) e o arquivo de código-fonte.
+        → Ex: gcc -o nome_do_programa nome_do_arquivo.c
     - Execute o Programa: Após a compilação, execute o programa gerado
-      Ex: ./nome_do_programa
+        → Ex: ./nome_do_programa
