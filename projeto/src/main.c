@@ -41,7 +41,7 @@ void limparTela() {
 }
 
 void menuBiblioteca() {
-    printf("\n///////// SISTEMA DE GERENCIAMENTO DE BIBLIOTECA ////////\n");
+    printf("///////// SISTEMA DE GERENCIAMENTO DE BIBLIOTECA ////////\n");
 
     printf("\n1. Cadastrar Livros\n");
     printf("2. Listar Livros\n");
