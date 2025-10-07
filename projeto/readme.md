@@ -1,4 +1,4 @@
-# 📘 Sisteme de Gerencimaneto de Biblioteca
+# 📘 Sistema de Gerencimaneto de Biblioteca
 
 **Descrição**: O projeto consiste em um sistema, para gerenciar as operações de uma biblioteca, permitindo o cadastro de livros e usuários, a listagem dos itens registrados e a realização de empréstimos.
 
