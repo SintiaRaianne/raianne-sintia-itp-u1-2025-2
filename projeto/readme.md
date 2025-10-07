@@ -1,8 +1,9 @@
-# 📘 Listas da Primeira Unidade 
+# 📘 Sisteme de Gerencimaneto de Biblioteca
 
-## Guia de Configuração do Ambiente e Instruções de Compilação
+**Descrição**: O projeto consiste em um sistema, para gerenciar as operações de uma biblioteca, permitindo o cadastro de livros e usuários, a listagem dos itens registrados e a realização de empréstimos.
 
-**Descrição**:  Este documento descreve os procedimentos necessários para configurar o ambiente de desenvolvimento em C e executar os códigos da lista, tanto através de uma IDE quanto via linha de comando.
+Este documento apresenta o passo a passo para a configuração do ambiente em C e a execução dos códigos, via IDE ou linha de comando.
+
 
 ### ⚙️ Configuração do Ambiente
 - ### Instalação do Compilador
@@ -39,11 +40,3 @@
 
         ```bash
         ./nome_do_programa
-    
-### ⚠️ Observações Importantes
-- Caso o programa utilize funções da biblioteca math.h, inclua o parâmetro -lm no final do comando de compilação. 
-
-    Exemplo (como na Lista 5, questão 3): 
-
-    ```bash
-    gcc -o nome_programa nome_programa.c -lm
