@@ -8,7 +8,7 @@
 #define maximo_autor 50
 
 // Constantes para definir limite (usuarios)
-#define maximo_usuarios 2
+#define maximo_usuarios 5
 #define maximo_nome 50
 
 // Constantes para definir limite (emprestimos)
