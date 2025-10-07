@@ -17,7 +17,7 @@
 
 **Repositório**: https://github.com/SintiaRaianne/raianne-sintia-itp-u1-2025-2
 
-**Vídeo de Demonstração**: 
+**Vídeo de Demonstração**: https://youtu.be/Szfb8V09yVU 
 
 ### Funcionalidades Implementadas:
 - **Cadastro de Livros**: Permite ao usuário adicionar novos livros ao sistema, informando o título e o autor. O sistema define o status inicial do livro como "Disponível".
